@@ -42,19 +42,7 @@
                 document.getElementById("TextArea1").innerText = ret;
 
             }
-			function transferData() {
-			var jsonOBJ=JSON.parse(ret);
-			var output="ResourceType :" +jsonOBJ.resourceType+" \n"+
-			"ID :" +jsonOBJ.id+" \n"+
-			"lastUpdated :" +jsonOBJ.meta.lastUpdated+" \n"+
-			"Type :"+jsonOBJ.type+" \n"+
-			"Total :" +jsonOBJ.total+" \n"+
-			"Relation :" +jsonOBJ.link[0].relation+" \n"+
-			"Link :"+jsonOBJ.link[0].url
-	
-			document.getElementById("TextArea2").innerText = (output);
-
-			}
+			
         </script>	
 	
 	
