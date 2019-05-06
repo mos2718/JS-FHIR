@@ -15,6 +15,9 @@
   "gender": "unknown",
   "birthDate": "1924-10-10",
   "deceasedBoolean": false
+  "managingOrganization": {
+          "reference": "Organization/1856069"
+        }
 }
 
 1729074
