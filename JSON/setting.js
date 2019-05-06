@@ -7,5 +7,5 @@ var rootOrgID = "1856069";
 //org patient
 //http://hapi.fhir.org/baseDstu3/Patient?organization=1856069
 
-//sub org 1902264
-http://hapi.fhir.org/baseDstu3/Organization?partof=1856069
+//http://hapi.fhir.org/baseDstu3/Organization?partof=1856069
+// error http://hapi.fhir.org/baseDstu3/Organization?partOf=1856069
