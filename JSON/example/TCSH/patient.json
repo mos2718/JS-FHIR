@@ -14,18 +14,16 @@
   "active": true,
    "name": [
     {
-      "family": "蕭嘉宏",
+      "family": "蕭",
       "given": [
-        "Homer",
-        "J"
-      ]
+        "蕭十一郎"]
     }
   ],
   "gender": "unknown",
   "birthDate": "1924-10-10",
   "deceasedBoolean": false,
   "managingOrganization": {
-          "reference": "Organization/1905582"
+          "reference": "Organization/1923622"
         }
 }
 

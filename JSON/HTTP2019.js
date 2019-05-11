@@ -1,31 +1,31 @@
-﻿var xmlHttp = new XMLHttpRequest(); 
-var ret;
+﻿var ret;
 //取得網路上的資源
 function HTTPGetData(urlStr) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", urlStr, true);
-    //rawFile.setRequestHeader("Content-type", 'text/xml');
-
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            ret = rawFile.responseText;
-            alert("data retrieved");
+    var HttpObj = new XMLHttpRequest();   
+    HttpObj.onreadystatechange = function () {
+        if (HttpObj.readyState === 4) {
+            ret = HttpObj.responseText;
+            callBack(ret);
+         //   alert("data retrieved");
         }
     }
-    rawFile.send();
+	HttpObj.open("GET", urlStr, true);
+    HttpObj.send();
 }
 
 //上傳 dataStr 到網路上
 function HTTPPostData(urlStr, dataStr ) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("POST", urlStr, true);
-    rawFile.setRequestHeader("Content-type", "application/json+fhir");
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4) {
-            ret = rawFile.responseText;
-        //    alert(ret);
-            manageResponseRet();
+    var HttpObj = new XMLHttpRequest();
+	HttpObj.open("POST", urlStr, true);
+    HttpObj.setRequestHeader("Content-type", "application/json+fhir");
+    HttpObj.onreadystatechange = function () {
+        if (HttpObj.readyState === 4) {
+            ret = HttpObj.responseText;
+          
+             alert(ret);
         }
     }
-    rawFile.send(dataStr);
+	
+	
+    HttpObj.send(dataStr);
 }

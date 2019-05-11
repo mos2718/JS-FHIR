@@ -1,6 +1,6 @@
 {
   "resourceType": "Organization",
-  "name": "TCU Radiology",
+  "name": "慈大吃吃吃",
   "telecom": [
     {
       "system": "phone",
@@ -14,7 +14,7 @@
     }
   ],
   "partOf": {
-          "reference": "Organization/1856069"
+          "reference": "Organization/1905554"
         }
    
 }

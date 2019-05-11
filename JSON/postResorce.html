@@ -42,24 +42,7 @@ document.getElementById("TextArea1").value = ret;
 	//  alert(ret);
 	}	
     
-function showData() {
-               // alert(ret);
-    document.getElementById("TextArea1").innerText = "aaaa"; //ret;
 
-            }
-function transferData() {
-			var jsonOBJ=JSON.parse(ret);
-			var output="ResourceType :" +jsonOBJ.resourceType+" \n"+
-			"ID :" +jsonOBJ.id+" \n"+
-			"lastUpdated :" +jsonOBJ.meta.lastUpdated+" \n"+
-			"Type :"+jsonOBJ.type+" \n"+
-			"Total :" +jsonOBJ.total+" \n"+
-			"Relation :" +jsonOBJ.link[0].relation+" \n"+
-			"Link :"+jsonOBJ.link[0].url
-	
-			//document.getElementById("TextArea2").innerText = (output);
-
-			}
 </script>	
 	
 </head>
@@ -69,11 +52,12 @@ Resource :
       	<option>Patient</option>	
 		<option>Organization</option>	
 		<option>Patient</option>	
+        <option>Observation</option>	
 	</select><br>
     <p>
         <input id="Button1" onclick="postData()"  type="button" value="postData" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      
-        <input id="Button3" onclick="transferData();" type="button" value="transferData" /></p>
+      
 
     <p>
         <textarea id="TextArea1" name="S1"></textarea></p>
