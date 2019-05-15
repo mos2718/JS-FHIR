@@ -2,7 +2,7 @@
 
 //5. FHIR TW with HTTPS  https://hapi.fhir.tw/
 // H707 實驗室  http://203.64.84.182:8036/
-
+//http://hapi.fhir.org/baseDstu3/Observation
 /*
 成大 FHIR server 已裝好，網址 :
 http://140.116.177.26:8080/  
