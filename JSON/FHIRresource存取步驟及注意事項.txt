@@ -1,0 +1,20 @@
+醫療作業流程產生的資訊存取
+例如:encounter(就醫)、observation(檢測結果)
+可上傳 XML or JSON 格式的資料
+HTML Form 資料轉 JSON observation 範例
+
+上傳前 XMLHTTPRequest mine content type 要設對
+上傳前防呆
+通常會有 reference subect id (所以 FHIR server 上必須先建立 patient data)
+
+下載
+通常會用 patient id 調閱病人所屬就醫資訊
+調閱病人就醫資訊
+調愈病人近期檢查資訊
+
+(所以 FHIR server 上必須先建立 patient data)
+
+
+
+
+

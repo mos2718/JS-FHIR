@@ -3,19 +3,27 @@
 //5. FHIR TW with HTTPS  https://hapi.fhir.tw/
 // H707 實驗室  http://203.64.84.182:8036/
 
+/*
+成大 FHIR server 已裝好，網址 :
+http://140.116.177.26:8080/  
+*/
+
 /* Happy FHIR solution
 //http://hapi.fhir.org/baseDstu3
 var rootOrgID = "1856069";
-//org patient
+//get org patient
 //http://hapi.fhir.org/baseDstu3/Patient?organization=1856069
 
-
+// post observation
+//http://hapi.fhir.org/baseDstu3/Observation
 
 //http://hapi.fhir.org/baseDstu3/Organization?partof=1856069
 // error http://hapi.fhir.org/baseDstu3/Organization?partOf=1856069
 
-// get patient 1856173 observations
-// http://hapi.fhir.org/baseDstu3/Observation?subject=1856173
+/* get patient 1856173 observations
+   http://hapi.fhir.org/baseDstu3/Observation?subject=1856173
+   get observation 1856172
+   http://hapi.fhir.org/baseDstu3/Observation?subject=1856172
 
 */
 
