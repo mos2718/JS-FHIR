@@ -1,5 +1,9 @@
 ﻿var FHIRrootURL = "http://hapi.fhir.org/baseDstu3";
 
+    // 成大 "http://140.116.177.26:8080/";
+
+//
+
 //5. FHIR TW with HTTPS  https://hapi.fhir.tw/
 // H707 實驗室  http://203.64.84.182:8036/
 //http://hapi.fhir.org/baseDstu3/Observation
