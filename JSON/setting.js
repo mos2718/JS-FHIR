@@ -1,10 +1,10 @@
-﻿var FHIRrootURL = "http://ymu041-190.ym.edu.tw:58080/baseDstu3";
+﻿var FHIRrootURL = "http://hapi.fhir.org/baseDstu3";
 
 // "http://hapi.fhir.org/baseDstu3";
 
 /*
  系塔:  http://hapi.fhir.tw/baseDstu3
- 陽明:  http://ymu041-190.ym.edu.tw:58080/baseDstu3/
+ 陽明:  http://fhir.dicom.org.tw/baseDstu3
  成大:  http://140.116.177.26:8080/baseDstu3 
 */
 
