@@ -7,7 +7,12 @@ post Patioent, Observation....
  http://hapi.fhir.org/baseDstu3/Patient
  http://hapi.fhir.org/baseDstu3/Observation
 
-get org 1856069  patient
+get org 1856069  patient 2025774
+http://hapi.fhir.org/baseDstu3/Patient/2025774
+
+?organization=1856069
+
+
 http://hapi.fhir.org/baseDstu3/Patient?organization=1856069
 
 get patient 1856173 observations
