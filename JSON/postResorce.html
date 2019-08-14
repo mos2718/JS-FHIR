@@ -30,7 +30,8 @@ function postData() {
     var resourceID = document.getElementById("resource");
 	var selected = resourceID.options[resource.selectedIndex].text;
 	var apiURL;
-	apiURL =FHIRrootURL + '/'  + selected; 
+    apiURL =FHIRrootURL + '/'  + selected; 
+  //  alert(apiURL);
 	 HTTPPostData(apiURL, dataString ); 
 	// + '/' + IdValue;
 	
