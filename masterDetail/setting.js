@@ -8,7 +8,7 @@
 /* 
 post Patioent, Observation....
  http://hapi.fhir.org/baseDstu3/Patient
- http://hapi.fhir.org/baseDstu3/Observation
+ http://hapi.fhir.org/baseR4/Observation/137017
 
 get org 1856069  patient 2025774
 http://hapi.fhir.org/baseDstu3/Patient/2025774

@@ -15,7 +15,7 @@ http://hapi.fhir.org/baseDstu3/Patient/2025774
 
 ?organization=1856069
 
-
+http://hapi.fhir.org/baseR4/Patient?organization=135706
 http://hapi.fhir.org/baseDstu3/Patient?organization=1856069
 
 get patient 1856173 observations
