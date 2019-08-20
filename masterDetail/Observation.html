@@ -89,7 +89,8 @@
       };
   // alert(document.getElementById("weight").value);
    bodyWeightObj.subject.reference  = "Patient/" + id;
-    bodyWeightObj.valueQuantity.value = document.getElementById("weight").value;
+   
+    bodyWeightObj.valueQuantity.value = document.getElementById("height").value;
     var objString;
     objString = JSON.stringify(bodyWeightObj);
   //  alert(objString);
