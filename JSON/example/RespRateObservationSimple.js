@@ -2,10 +2,10 @@
 {
   "resourceType": "Observation",
    "status": "final",
- 
-  "subject": {
-    "reference": "Patient/1856173"
-  },
+   "subject": {
+          "reference": "Patient/141007",
+          "display": "楊貴妃"
+        },
 
   "effectiveDateTime": "2019-05-04T16:51:00Z",
   "valueQuantity": {

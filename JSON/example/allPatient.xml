@@ -17,9 +17,9 @@
           <text value="黃小明"/>
         </name>
         <gender value="male"/>
-        <birthDate value="19700101" />
-        <managingOrganization>
-          <reference value="無距科技"/>
+        <birthDate value="1970-01-01" />
+       <managingOrganization>
+          <reference value="Organization/135706"/>
         </managingOrganization>
       </Patient>
     </resource>
@@ -84,6 +84,26 @@
       </Patient>
     </resource>
   </entry>
+  
+    <entry>
+    <resource>
+      <Patient>
+        <name>
+          <text value="楊玉環"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1087-01-25" />
+        <managingOrganization>
+          <reference value="Organization/135706"/>
+        </managingOrganization>
+      </Patient>
+    </resource>
+  </entry>
+  
+ http://hapi.fhir.org/baseR4/Patient/141007/_history/1
+ http://hapi.fhir.org/baseR4/Condition?subject=141007
+ http://hapi.fhir.org/baseR4/Observation?subject=141007
+ 
   <entry>
     <resource>
       <Patient>
