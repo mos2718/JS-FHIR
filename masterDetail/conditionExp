@@ -1,0 +1,30 @@
+{
+  "severity": {
+    "coding": [
+      {
+        "system": "http://snomed.info/ct",
+        "code": "6736007",
+        "display": "mild to moderate"
+      }
+    ],
+    "text": "mild to moderate"
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/ct",
+        "code": "195917001",
+        "display": "asthma"
+      }
+    ],
+    "text": "asthma"
+  },
+  "subject": {
+    "reference": "Patient/18200"
+  },
+  "onsetAge": {
+    "value": 14,
+    "system": "http://unitsofmeasure.org",
+    "code": "a"
+  }
+}
