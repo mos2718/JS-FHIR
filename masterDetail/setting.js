@@ -1,6 +1,5 @@
 ﻿var FHIRrootURL = "http://hapi.fhir.org/baseR4";
-// Org 135706
-
+// "http://hapi.fhir.org/baseR4";
 // "http://hapi.fhir.org/baseDstu3"
 
 // "http://hapi.fhir.org";
