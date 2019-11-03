@@ -1,4 +1,4 @@
-﻿var FHIRrootURL = "http://hapi.fhir.org/baseR4";
+﻿var FHIRrootURL = "https://hapi.fhir.tw/fhir";
 // "http://hapi.fhir.org/baseR4";
 // "http://hapi.fhir.org/baseDstu3"
 
